@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registration Form</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+<style type="text/css">
+
+	
+body {
+	background-color: #FFF0D1;
+	color: #3B3030;
+	font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+hr {
+	border: 5px solid #795757;
+}
+h1 {
+	font-family: "Abril Fatface", serif;
+	font-weight: 400;
+	text-align: center;
+}
+
+.info{
+	background-color: #FFF8E8;
+}
+
+.spots{
+	background-color: #FFF8E8;
+}
+
+.like{
+	background-color: #FFF8E8;
+}
+
+</style>
+</head>
+<body>
+	<h1>Travel Registration</h1>
+	<hr />
+	<fieldset class="info">
+		<legend>Information</legend>
+<form>
+	<label for="name">First Name:</label>
+	<input type="text" name="fname" placeholder="Enter your First Name here.">
+
+	<br/>
+	<label for="name">Last Name:</label>
+	<input type="text" name="lname" placeholder="Enter your Last Name here.">
+
+	<br/>
+	<label for="email">Email Address:</label>
+	<input type="email" name="email" placeholder="Enter your Email Address here.">
+
+	<br/>
+	<label for="uname">Username:</label>
+	<input type="text" name="uname" placeholder="Enter your Username.">
+
+	<br/>
+	<label for="passcode">Password:</label>
+	<input type="Password" name="passcode" placeholder="Enter your Password here.">
+</fieldset>
+<br/>
+
+<fieldset class="spots">
+	<legend>Favorite Philippines vacation Spots?</legend>
+<form>
+	<input type="checkbox" id="spot1" name="spot1" value="Boracay">
+	<label for="name">Boracay</label>
+	
+
+	<br/>
+	<input type="checkbox"id="spot2" name="spot2" value="Tagaytay">
+	<label for="name">Tagaytay</label>
+	
+
+	<br/>
+	<input type="checkbox" id="spot3" name="spot3" value="Palawan">
+	<label for="name">Palawan</label>
+	
+
+	<br/>
+	<input type="checkbox" id="spot4" name="spot4" value="Cebu">
+	<label for="name">Cebu</label>
+	
+
+	</fieldset>
+	<br/>
+
+<fieldset class="like">
+	<legend>Are the information given accurate?</legend>
+<form>
+	<label for="name">Yes</label>
+	<input type="radio" id="yes" name="info" value="yes">
+
+	<label for="name">No</label>
+	<input type="radio" id="no" name="info" value="no">
+</fieldset>
+	<br/>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</form>
+
+</body>
+</html>
